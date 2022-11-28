@@ -29,9 +29,9 @@ session_start();
 
 <?php
 if(!isset(($_SESSION['edit_task'])))
-	header('Location: index.php');
+	header('Location: home.php');
 
 if(($_GET['cancel'])==1) {
 	unset($_SESSION['edit_task']);
-	header('Location: index.php');	
+	header('Location: home.php');	
 }

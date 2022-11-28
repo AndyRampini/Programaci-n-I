@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header><a href="index.php" id='app_name' class="header">Programación I</a></header>
+	<header><a href="home.php" id='app_name' class="header">Programación I</a></header>
 	<form action="login_process.php" method='post'>
 		<input type="text" placeholder="Usuario"  name='username' required>
 		<input type="password" placeholder="Contraseña" name='password' required>
@@ -24,4 +24,4 @@ if(isset($_SESSION['error']))
 unset($_SESSION['error']);
 
 if(isset($_SESSION['user']))
-	header('Location: index.php');
+	header('Location: home.php');

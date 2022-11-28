@@ -10,7 +10,7 @@ if(!empty($_POST['username']) && !empty($_POST['password'])) {
 		if(password_verify($_POST['password'], $row['password'])) {
 			$_SESSION['user_id'] = $row['user_id'];
 			$_SESSION['user'] = 'Bienvenido, ' . $row['username'] . '!';		// Sesión iniciada
-			header('Location: index.php');
+			header('Location: home.php');
 		}
 		else {
 			$_SESSION['error'] = 'Contraseña invalida.';
