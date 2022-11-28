@@ -30,4 +30,4 @@ if(isset($_SESSION['success']))
 unset($_SESSION['success']);
 
 if(isset($_SESSION['user']))
-	header('Location:home.php');
+	header('Location: home.php');

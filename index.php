@@ -7,9 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
-	<link  rel="icon"   href="imagenes/ies7-logo-.jpg" type="" />
+    <link  rel="icon"   href="imagenes/ies7-logo-.jpg" type="" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
 	<header>
 		<a id='app_name' href="#">Programación I</a>
@@ -63,7 +64,7 @@
                </div>
                <div class="row1">
                    <img src="iconos/twitter.png">
-                   <label>Siguenos en Whatsapp</label>
+                   <label>Siguenos en Twitter</label>
                </div>
                <div class="row1">
                    <img src="iconos/instagram.png">
